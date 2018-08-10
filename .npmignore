@@ -40,5 +40,4 @@ compiled
 # Other
 tsconfig.json
 testSetup.ts
-src/
 examples/
