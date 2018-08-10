@@ -12,7 +12,8 @@
   "main": "index.js",
   "typings": "src/index.ts",
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "author": "Dmitry Korolev <dmitry@korolev.dk> (https://korolev.dk)",
   "repository": {
