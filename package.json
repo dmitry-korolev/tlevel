@@ -1,0 +1,47 @@
+{
+  "name": "tlevel",
+  "version": "0.0.0",
+  "description": "Type utilities",
+  "keywords": [
+    "typescript",
+    "helpers",
+    "types",
+    "utilities",
+    "utils"
+  ],
+  "main": "index.js",
+  "typings": "src/index.ts",
+  "files": [
+    "lib"
+  ],
+  "author": "Dmitry Korolev <dmitry@korolev.dk> (https://korolev.dk)",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "npm run build:module",
+    "build:module": "tsc",
+    "prebuild": "rimraf lib"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.14.2",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.10.0",
+    "tslint-config-standard": "^7.0.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "typescript": "^3.0.1"
+  },
+  "lint-staged": {
+    "**/*.ts": [
+      "prettier --write --config .prettierrc",
+      "git add"
+    ]
+  }
+}
