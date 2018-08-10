@@ -1,12 +1,10 @@
-# Package name
+# Tlevel
 
-Description. Please, mention [Stapp](https://github.com/TinkoffCreditSystems/stapp) here.
-
-Add link to the docs, e.g.: [documentation](https://tinkoffcreditsystems.github.io/stapp/#stapp).
+Type utilities for Typescript.
 
 ## Installation
 ```bash
-npm install package-name
+npm install tlevel
 ```
 
 ## License
